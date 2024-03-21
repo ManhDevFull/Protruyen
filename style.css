@@ -1,0 +1,310 @@
+*{margin: 0;padding: 0;}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #232628;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style: none;
+}
+.container{
+    margin: auto;
+    width: 1300px;
+    height: 90px;
+}
+.container .container-top{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #0E1A4E;
+    padding-top: 0px;
+}
+.container .container-top img{
+    width: 150px;
+    height: 40px;
+    margin-left: 115px;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+.container .container-top .top1{
+    padding-top: 8px;
+    margin-left: 90px;
+    width: 423px;
+    height: 50px;
+}
+.container .container-top .top1 input{
+    border: none;
+    background-color: #181A1B;
+    width: 390px;
+    height: 32px;
+}
+.container .container-top .top1 button:hover{
+    background-color: #272B2C;
+}
+.container .container-top .top1 button{
+    background-color: #181A1B;
+    border: none;
+    height: 32px;
+    width: 33px;
+    margin-left: -5px;
+}
+.container .container-top .top1 > button > i{
+    color: #CCCCCC;
+    font-size: 14px;
+}
+.container .container-top .top2{
+    padding-top: 12px;
+    padding-left: 40px;
+    width: 80px;
+    height: 50px;
+}
+.container .container-top .top2 i{
+    padding-left: 15px;
+    font-size: 24px;
+}
+.container .container-top .top3{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.container .container-top .top3 ul{
+    display: flex;
+}
+.container .container-top .top3 ul > li:hover a{
+    color: #B356DC;
+}
+.container .container-top .top3 ul a{
+    color: #D0CFD3;
+    margin-left: 5px;
+}
+.container .container-bottom{
+    width: 1303px;
+    height: 40px;
+    background-color: #272B2C;
+}
+
+.container .container-bottom ul{
+    display: flex;
+    margin-left: 155px;
+}
+.container .container-bottom ul li:hover{
+    background-color: #222426;
+}
+.container .container-bottom ul li:hover a{
+    color: #B356DC;
+}
+.container .container-bottom ul li{
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #3A3E41;
+}
+.container .container-bottom ul a{
+    color: #C8C3BC;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 1030px;
+    margin: auto;
+    background-color: #1B1E1F;
+}
+.inline{
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    width: 1000px;
+    height: 41px;
+    border: 1px solid #00359F;
+}
+.inline i{
+    font-size: 15px;
+    color: #E8E6E3;
+    padding: 12px 10px;
+    background-color: #0037A6;
+}
+.inline u{
+    color: #47A4D3;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.history-new{
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.title{
+    color: #54A4D9;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+.history-new .history{
+
+    display: flex;
+    flex-direction: column;
+    color: #D1D0CE;
+    width: 170px;
+    height: 340px;
+    margin-top: 15px;
+}
+.history-new .history img{
+    border: 1px solid #34383A;
+    width: 155px;
+    height:200px;
+    border-radius: 4px;
+}
+.history-new .history .history-name:hover{
+    color: #2B6DC0;
+}
+.history-new .history .history-name{
+    color: #D1D0CE;
+    font-size: 17px;
+}
+.history-new .history .chap{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.history-new .history .chap .chapter{
+    width: 160px;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.history-new .history .chap .chapter p:hover{
+    color: #2B6DC0;
+}
+.history-new .history .chap .chapter p{
+    font-size: 14.5px;
+}
+.history-new .history .chap .chapter i{
+    font-size: 12px;
+    padding-top: 4px;
+    padding-right: 5px;
+}
+.list-page{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    color:  #E8D6D5;
+}.list-page .page{
+    background-color: #181A1B;
+    padding: 10px 15px;
+    border: 1px solid #3A3E41;
+}
+
+.main-body{
+    display: flex;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+.table .QC > h4{
+    font-size: 15px;
+    color: #C0BBB2;
+    margin-top: -10px;
+    margin-bottom: 7px;
+}
+.table .QC .nd-qc{
+    display: flexbox;
+    border-radius: 5px;
+    width: 295px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+}
+.table .QC .nd-qc img{
+    width: 295px;
+    height: 320px;
+}
+.table .QC .nd-qc > div{
+    position: absolute;
+    height: 130px;
+    width: 295px;
+    background-color: #181A1B;
+    margin-top: -130px;
+}
+.table .QC .nd-qc > div h3{
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #BDBCBA;
+    font-size: 17px;
+    padding-right: 10px;
+}
+.table .QC .nd-qc a{
+    color: #3B80CD;
+    display: block;
+    padding-top: 5px;
+    padding-left: 14px;
+    padding-bottom: 2px;
+}
+.table .QC .nd-qc hr{
+    color: #272B2D;
+    border-width: 0,5px;
+    border-bottom: none;
+    width: 265px;
+    margin: auto;
+}
+.table .history-lis{
+    margin-top: 20px;
+    border: 1px solid #393E41;
+    display: flex;
+    flex-direction: column;
+    width: 313px;
+    height:288px;
+}
+.table .history-lis .lichsu{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 45px;
+    border-bottom: 1px solid #393E41;
+    
+}
+.table .history-lis .lichsu p{
+    color: #4F99CA;
+    font-size: 17px;
+}
+.table .history-lis .lichsu a{
+    color: #E8E6E3;
+    font-size: 14px;
+}
+.table .history-lis .ls-truyen{
+    margin: auto;
+    height: 80px;
+    width: 290px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    border-bottom: 1px solid #393E41;
+}
+.table .history-lis .ls-truyen img{
+    height: 60px;
+    width: 70px;
+}
+.table .history-lis .ls-truyen .name-ls{
+    padding-left: 10px;
+}
+.table .history-lis .ls-truyen .name-ls p{
+    color: #E8E6E3;
+    font-size: 14.5px;
+    padding-bottom: 5px;
+}
+.table .history-lis .ls-truyen .name-ls i{
+    color: #B4AFA7;
+    padding-top: 5px;
+    font-size: 13px;
+}
